@@ -2,6 +2,9 @@ window:
   padding:
     x: 0
     y: 0
+  margin:
+    x: 0
+    y: 0
 
 scrolling:
   history: 100000
@@ -66,7 +69,7 @@ colors:
     cyan:    '0x0db9d7'
     white:   '0xacb0d0'
 
-background_opacity: 0.99
+background_opacity: 0.98
 
 window.dynamic_title: true
 

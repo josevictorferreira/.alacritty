@@ -69,7 +69,7 @@ colors:
     cyan:    '0x0db9d7'
     white:   '0xacb0d0'
 
-background_opacity: 0.98
+background_opacity: 1.00
 
 window.dynamic_title: true
 

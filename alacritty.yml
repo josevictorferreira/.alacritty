@@ -19,7 +19,7 @@ shell:
     - new
     - -A
     - -s
-    - mySession
+    - mySessionTwo
 
 font:
   normal:
@@ -68,8 +68,6 @@ colors:
     magenta: '0xbb9af7'
     cyan:    '0x0db9d7'
     white:   '0xacb0d0'
-
-background_opacity: 1.00
 
 window.dynamic_title: true
 

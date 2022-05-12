@@ -82,3 +82,6 @@ cursor:
   unfocused_hollow: true
 
 live_config_reload: true
+
+selection:
+  save_to_clipboard: true

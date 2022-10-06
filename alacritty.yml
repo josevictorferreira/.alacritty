@@ -25,18 +25,18 @@ shell:
 
 font:
   normal:
-    family: Cousine Nerd Font 
+    family: MonoLisa 
     style: Regular
   bold:
-    family: Cousine Nerd Font
+    family: MonoLisa
     style: Bold
   italic:
-    family: Cousine Nerd Font
-    style: Italic
+    family: MonoLisa
+    style: RegularItalic
   bold_italic:
-    family: Cousine Nerd Font
+    family: MonoLisa
     style: Bold Italic
-  size: 14.0
+  size: 12.0
   use_thin_strokes: true
 
 draw_bold_text_with_bright_colors: true

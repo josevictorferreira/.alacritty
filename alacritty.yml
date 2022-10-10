@@ -41,34 +41,42 @@ font:
 
 draw_bold_text_with_bright_colors: true
 
-# Colors (Ayu Dark)
+# Colors (catppuccin)
 colors:
   # Default colors
   primary:
-    background: '0x0A0E14'
-    foreground: '0xB3B1AD'
+    background: '0x1E1D2F'
+    foreground: '0xD9E0EE'
+
+  cursor:
+    text: '0x1E1D2F'
+    cursor: '0xF5E0DC'
 
   # Normal colors
   normal:
-    black:   '0x01060E'
-    red:     '0xEA6C73'
-    green:   '0x91B362'
-    yellow:  '0xF9AF4F'
-    blue:    '0x53BDFA'
-    magenta: '0xFAE994'
-    cyan:    '0x90E1C6'
-    white:   '0xC7C7C7'
+    black:   '0x6E6C7E'
+    red:     '0xF28FAD'
+    green:   '0xABE9B3'
+    yellow:  '0xFAE3B0'
+    blue:    '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan:    '0x89DCEB'
+    white:   '0xD9E0EE'
 
   # Bright colors
   bright:
-    black:   '0x686868'
-    red:     '0xF07178'
-    green:   '0xC2D94C'
-    yellow:  '0xFFB454'
-    blue:    '0x59C2FF'
-    magenta: '0xFFEE99'
-    cyan:    '0x95E6CB'
-    white:   '0xFFFFFF'
+    black:   '0x988BA2'
+    red:     '0xF28FAD'
+    green:   '0xABE9B3'
+    yellow:  '0xFAE3B0'
+    blue:    '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan:    '0x89DCEB'
+    white:   '0xD9E0EE'
+
+  indexed_colors:
+    - { index: 16, color: '0xF8BD96' }
+    - { index: 17, color: '0xF5E0DC' }
 
 cursor:
   style: Block

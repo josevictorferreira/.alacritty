@@ -1,5 +1,5 @@
 window:
-  opacity: 0.95
+  opacity: 1.0
   dynamic_title: true
   padding:
     x: 0

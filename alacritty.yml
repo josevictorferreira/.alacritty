@@ -1,5 +1,5 @@
 window:
-  opacity: 0.98
+  opacity: 1.0
   dynamic_title: true
   padding:
     x: 0
@@ -22,18 +22,18 @@ shell:
 
 font:
   normal:
-    family: JetBrains Mono 
-    style: Regular
+    family: JetBrainsMono Nerd Font Mono 
+    style: Medium
   bold:
-    family: JetBrains Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Bold
   italic:
-    family: JetBrains Mono
-    style: RegularItalic
+    family: JetBrainsMono Nerd Font Mono
+    style: Italic
   bold_italic:
-    family: JetBrains Mono
+    family: JetBrainsMono Nerd Font Mono
     style: Bold Italic
-  size: 12.0
+  size: 13.0
 
 draw_bold_text_with_bright_colors: true
 

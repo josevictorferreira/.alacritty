@@ -37,7 +37,7 @@ bright_foreground = "0xe6efff"
 foreground = "0xabb2bf"
 
 [env]
-TERM = "tmux-256color"
+TERM = "xterm-256color"
 
 [font]
 size = 12.5
@@ -63,7 +63,7 @@ history = 100000
 multiplier = 3
 
 [shell]
-args = ["new", "-A", "-s", "mySessionTwo"]
+args = ["new", "-A", "-s", "personal"]
 program = "/usr/bin/tmux"
 
 [window]

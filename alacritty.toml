@@ -43,19 +43,19 @@ TERM = "xterm-256color"
 size = 12.5
 
 [font.bold]
-family = "JetBrains Mono"
+family = "SauceCodePro Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrains Mono"
+family = "SauceCodePro Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrains Mono"
+family = "SauceCodePro Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "JetBrains Mono"
+family = "SauceCodePro Nerd Font Mono"
 style = "Medium"
 
 [scrolling]
@@ -73,3 +73,12 @@ opacity = 0.8
 [window.padding]
 x = 0
 y = 0
+
+[cursor]
+blink_interval = 500
+
+[cursor.style]
+shape = "Block"
+blinking = "Always"
+
+

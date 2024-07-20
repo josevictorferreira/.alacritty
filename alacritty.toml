@@ -1,61 +1,62 @@
-[colors]
-draw_bold_text_with_bright_colors = true
-
-[colors.bright]
-black = "0x5c6370"
-blue = "0x61afef"
-cyan = "0x56b6c2"
-green = "0x98c379"
-magenta = "0xc678dd"
-red = "0xe06c75"
-white = "0xe6efff"
-yellow = "0xd19a66"
-
-[colors.dim]
-black = "0x1e2127"
-blue = "0x61afef"
-cyan = "0x56b6c2"
-green = "0x98c379"
-magenta = "0xc678dd"
-red = "0xe06c75"
-white = "0x828791"
-yellow = "0xd19a66"
-
-[colors.normal]
-black = "0x1e2127"
-blue = "0x61afef"
-cyan = "0x56b6c2"
-green = "0x98c379"
-magenta = "0xc678dd"
-red = "0xe06c75"
-white = "0x828791"
-yellow = "0xd19a66"
+# Colors (Kanagawa Wave)
+# Source https//github.com/rebelot/kanagawa.nvim
 
 [colors.primary]
-background = "0x1e2127"
-bright_foreground = "0xe6efff"
-foreground = "0xabb2bf"
+background = '#1f1f28'
+foreground = '#dcd7ba'
+
+[colors.normal]
+black   = '#090618'
+red     = '#c34043'
+green   = '#76946a'
+yellow  = '#c0a36e'
+blue    = '#7e9cd8'
+magenta = '#957fb8'
+cyan    = '#6a9589'
+white   = '#c8c093'
+
+[colors.bright]
+black   = '#727169'
+red     = '#e82424'
+green   = '#98bb6c'
+yellow  = '#e6c384'
+blue    = '#7fb4ca'
+magenta = '#938aa9'
+cyan    = '#7aa89f'
+white   = '#dcd7ba'
+
+[colors.selection]
+background = '#2d4f67'
+foreground = '#c8c093'
+
+[[colors.indexed_colors]]
+index = 16
+color = '#ffa066'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#ff5d62'
 
 [env]
 TERM = "xterm-256color"
 
 [font]
-size = 12.5
+size = 11
 
 [font.bold]
-family = "SauceCodePro Nerd Font Mono"
+family = "BlexMono Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "SauceCodePro Nerd Font Mono"
+family = "BlexMono Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "SauceCodePro Nerd Font Mono"
+family = "BlexMono Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "SauceCodePro Nerd Font Mono"
+family = "BlexMono Nerd Font Mono"
 style = "Medium"
 
 [scrolling]
@@ -80,5 +81,3 @@ blink_interval = 500
 [cursor.style]
 shape = "Block"
 blinking = "Always"
-
-

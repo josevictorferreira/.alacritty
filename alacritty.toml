@@ -38,10 +38,10 @@ index = 17
 color = '#ff5d62'
 
 [env]
-TERM = "xterm-256color"
+TERM = "tmux-256color"
 
 [font]
-size = 11
+size = 12
 
 [font.bold]
 family = "BlexMono Nerd Font Mono"
@@ -69,7 +69,7 @@ program = "/usr/bin/tmux"
 
 [window]
 dynamic_title = true
-opacity = 0.8
+opacity = 1
 
 [window.padding]
 x = 0

@@ -44,32 +44,32 @@ TERM = "tmux-256color"
 size = 12
 
 [font.bold]
-family = "BlexMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "BlexMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "BlexMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "BlexMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Medium"
 
 [scrolling]
 history = 100000
 multiplier = 3
 
-[shell]
+[terminal.shell]
 args = ["new", "-A", "-s", "personal"]
 program = "/usr/bin/tmux"
 
 [window]
 dynamic_title = true
-opacity = 1
+opacity = 0.95
 
 [window.padding]
 x = 0
@@ -81,3 +81,5 @@ blink_interval = 500
 [cursor.style]
 shape = "Block"
 blinking = "Always"
+
+[terminal]

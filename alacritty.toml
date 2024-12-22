@@ -66,7 +66,7 @@ program = "tmux"
 
 [window]
 dynamic_title = true
-opacity = 0.95
+opacity = 1
 
 [window.padding]
 x = 0
